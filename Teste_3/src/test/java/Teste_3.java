@@ -11,7 +11,7 @@ public class Teste_3<I extends Number> {
     public void testeFib() {
         Teste_3<Integer> seqFib = new Teste_3 <Integer>();
         int n = 1;
-        int fib_n = n;
+        seqFib.fib_n = n;
         assertEquals(fib_n, n);
     }
 }
